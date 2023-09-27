@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>SurveyPortfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="www.linkedin.com/in/thomas-service/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="www.linkedin.com/in/thomas-service/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>			
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Survey Portfolio</h1>
+			<h2>Thomas Service</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Thomas Service which was made for the subject Professional Practice (GEOM2116). The website entails
+		information that is academically and profesionally related to the field of geospatial science
+		<p>
+			Currently, a full-time student studying the Bachelor of Surveying (Honours) completing my final year. Experienced in both office and field procedures as a Cadastral Land Surveyor in Melbourne, Victoria. Competent in completing a variety of tasks including historic title searches, computing basic to intermediate level title computations and applying checks to ensure quality, drafting survey plans, and operating and performing basic maintenance and calibration on equipment.
+		</p>
+		<p>
+		My own personal hobbies include Coaching Football and travelling! More detailed information can be found in the About page!
+		</p>	
+	<img src="self-portrait.jpeg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Cartography encompasses the art and science of crafting maps by utilizing spatial data derived from various sources, including publicly available government data and population statistics from authoritative entities like the Australian Bureau of Statistics (ABS). In the context of the Cartography 2 course, the practical assignments revolved around the creation of maps. While there were two tests and an initial practical exercise, the central focus of Cartography 2 involved students designing and producing three distinct maps of their choosing, each centered around a specific thematic topic. These practical assignments allowed students to apply their cartographic skills and knowledge to real-world scenarios, enabling them to effectively communicate information through map visualization.
+		<ul>
+The final map assignment represents the culmination of the Cartography 2 course, requiring you to create a map layout, either in A4 or A3 size, tailored for a specific audience and map use of your choosing, with complete freedom to select any topic for the map's content. The completed map layout must be submitted in PDF format. In addition to this, you will participate in an oral viva where you will articulate your design rationale. This entails identifying the intended map user, specifying the supported map uses, justifying your data selection based on their relevance to the map's intended purpose and users, and explaining your cartographic design decisions, all in accordance with the principles of cartographic design theory covered in the course lectures. This assignment serves as an assessment of your capacity to effectively apply cartographic design concepts and articulate your design choices.
+		</ul>
+		<p>
+			Below is the final map that I have created as part of my course:
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Melbourne Map: All 7-11 locations in Melbourne City</h3></div>
+	<img src="Academic-Gallery/Cartography-Prac2.png" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Engineering Surveying</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		This course aims to cultivate an elevated understanding of engineering surveying, offering insights into modern and evolving methodologies and technologies, along with adherence to prevailing industry benchmarks.
+		The users of this will be:
+		<ul>
+			<li>Surveying</li>
+			<li>Civil Engineers</li>
+		</ul>
+		<p>
+		For the 2023 version of the coure, we had to complete as a group a design component of a road design. This was created by using a DTM model and creating an alignment.
+		Within this we had to create cross sections to work out the cut and fill for the construction to take place.
+		The Deliverable for this assignment was:
+		<ul>
+			<li>Horizontal Alignment Plan</li>
+			<li>Field Cards with Computations</li>
+			<li>Cross section Plan</li>
+		</ul>
+		</p>
+		<p>
+			The Survey information was obtained from RMIT, this was then processed through LISCAD.see and able to give a DTM model. Through LISCAD.see and LISCAD.CAD 
+			the alignments and cross sections were able to be created. once this was generated a field day at RMIT Bundoora was used to compute the radiations and then 
+			stake these points out in the correct position. Once the marks were setout a Level Run was completed to determine the cut and fall of the alignment.
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Topographic survey map and Alignment</h3></div>
+	<img src="Academic-Gallery/AGT-CAD.png" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Field card of computations</h3></div>
+	<img src="Academic-Gallery/AGT-3D-Amphitheatre.png" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Final Cross sections</h3></div>
+	<img src="Academic-Gallery/AGT-Map.png" class="agt-carto"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="academic-intro">
+		This page will briefly cover all my work experience (as of September 2023) within the geospatial science industry. The company I have 
+		worked in was Adept Surveys PTY Ltd, in this page I will discuss what I have learnt and types of projects that I have worked on. 
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Adept Surveys PTY Ltd</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="AAM-logo.png" class="company-logo">
+	<div class="job-title">Land Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">Febuary 2019 - September 2023</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		My experience at Adept Surveys was in the position of an Undergraduate Surveyor. This role started off as an assistant surveyor. It taught me the fundamentles 
+		of surveying. The experience that I had were invaluable to my learnings. These included such things as basic to moderate level title computations, level and feature 
+		surveys in unique places. These places were such as the new gate installation at the Supreme Court House Melbourne. This also took me into the rural areas for large scale
+		farm surveys. Adept Surveys was a small firm, which taught me how to interact with everyone and experience all the different sections that create a successful business.
+		<p>
+		As part of the team at Adept, the completion of work to a high standard and to the clients needs were important. This was Highlighted by the changing of the 
+		quote for every job. Part of my role was to interperate this and locate all the required detail. This was highlighted in the end result of the plan. I dealt with some 
+		clients in the way that the plan should be presented, and whether or not any alterations had occured that needed amending on the plan.
+		</p>
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/GIS.png" class="iconimages"></td>
+				<td>OHS</td>
+                <td><img src="Icons/QGIS-icon.png" class="iconimages"></td>
+				<td>Liscad and Autocad</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/adobe-illustrator11.png" class="iconimages"></td>
+				<td>Attention to Detail</td>
+                <td><img src="Icons/adobe-illustrator.png" class="iconimages"></td>
+				<td>Laser Scanning</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/rs-satellite-icon.png" class="iconimages"></td>
+				<td>Drafting Skills</td>
+                <td><img src="Icons/rs-satellite-icon11.png" class="iconimages"></td>
+				<td>Problem Solving</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cartography 2 (GEOM2079)</li>
+            <li>Engineering and Construction Surveying (GEOM1060)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nikolas Lee</li>
+        </ul>
+       
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="database icons">Flaticon</a></th>
+            <th><img src="Icons/GIS.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="draw icons">Flaticon</a></th>
+            <th><img src="Icons/QGIS-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="adobe illustrator icons">Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator11.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="python icons">Flaticon</a></th>
+            <th><img src="Icons/adobe-illustrator.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="html icons">Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/" title="web site icons">Flaticon</a></th>
+            <th><img src="Icons/rs-satellite-icon11.png" class="icon-attribute"></th>
+        </tr>
+        <tr>			
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></th>
+            <th><img src="linkedin.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Odeo as part of undergraduate Professional Practice course (GEOMOD10).
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>Level 6, 414 La Trobe Street Melbourne VIC 3000</th>
+				<th>
+					Email Thomas Service here:
+					<br><a href = "thomas.service@spiire.com.au">thomas.service@spiire.com.au</a>
+				</th>
+				<th>Mobile:
+					<br>0427 399 778
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
